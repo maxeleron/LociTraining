@@ -1,0 +1,13 @@
+#tutorial {
+  background: white;
+  height: 100%;
+}
+
+.section {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  background: yellow;
+  font-size: 60px;
+}
