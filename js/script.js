@@ -1,6 +1,8 @@
 const setFullpage = () => {
   new fullpage("#fullpage", {
-    //Навигация
+    licenseKey: '8vNBb$F@d4', // my open source license
+
+    //Navigation
     menu: "#menu",
     lockAnchors: false,
     anchors: ["firstPage", "secondPage"],
@@ -11,7 +13,7 @@ const setFullpage = () => {
     slidesNavigation: false,
     slidesNavPosition: "bottom",
 
-    //Скроллинг
+    //Scrolling
     css3: true,
     scrollingSpeed: 700,
     autoScrolling: true,
@@ -38,12 +40,12 @@ const setFullpage = () => {
     touchSensitivity: 15,
     bigSectionsDestination: null,
 
-    //Доступ
+    //Access
     keyboardScrolling: true,
     animateAnchor: true,
     recordHistory: true,
 
-    //Дизайн
+    //Design
     controlArrows: true,
     verticalCentered: true,
     //   sectionsColor: ["#ccc", "#fff"],
@@ -58,13 +60,13 @@ const setFullpage = () => {
     cards: false,
     cardsOptions: { perspective: 100, fadeContent: true, fadeBackground: true },
 
-    //Настроить селекторы
+    //Selectors options
     sectionSelector: ".section",
     //   slideSelector: ".slide",
 
     lazyLoading: true,
 
-    //события
+    //Events
     onLeave: function (origin, destination, direction) {},
     afterLoad: function (origin, destination, direction) {},
     afterRender: function () {},
